@@ -1,0 +1,64 @@
+#container-main {
+    background-color: #37C77F;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #37C77F 0%, #37C77F 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-main .content-wrapper {
+    position: relative;
+    
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url('../../images/conf_cad.svg') no-repeat 80% center;
+
+}
+
+#container-main .content-wrapper main{
+    max-width: 350px;
+    margin-top: 20%;
+    margin-left: 10%;
+    font: 600 18px Nunito, sans-serif;
+}
+
+#container-main .content-wrapper main h1{
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#container-main .content-wrapper main button{
+    position: absolute;
+    left: 22.15%;
+    right: 60.97%;
+    top: 62.8%;
+    bottom: 29.39%;
+
+    background-color: #31B272;
+    border-radius: 20px;
+    color: #FFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+}
+
+#container-main .content-wrapper main button:hover{
+    background-color: #3BD689;
+    border: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
